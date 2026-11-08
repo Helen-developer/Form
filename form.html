@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лабораторна робота №8: Базовий Flexbox</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <main class="container">
+  <h1>Зареєструватись</h1>
+  <form action="#" method="post" enctype="multipart/form-data">
+  <fieldset>
+    <div class="card">
+    <label for="email">Електронна пошта</label>
+    <input type="email"
+    placeholder="elensavchuck@gmail.com"
+    required>
+    </div>
+    
+    <div class="card">
+      <label for="text">Пароль</label>
+      <input type="textarea"
+      required>
+      </div>
+      <div class="card">
+  <label>
+  <input type="checkbox" name="remember" value="remember">
+  Запам'ятати мене
+  </label>
+  <a href="#" target="_blank">Забули пароль?</a>
+  </div>
+
+    <div class="form-actions">
+      <button class="btn">Продовжити</button>
+    </div>
+    </fieldset>
+  </form>
+</main>
+</body>
+</html>
